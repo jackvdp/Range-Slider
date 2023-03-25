@@ -23,7 +23,7 @@ Then, add RangeSlider to the dependencies array of your target:
 ),
 ```
 
-### CocoaPods
+### CocoaPods (TBC)
 
 You can also install RangeSlider using CocoaPods. To install, add the following line to your Podfile:
 
