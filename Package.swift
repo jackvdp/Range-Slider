@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "RangeSlider",
     platforms: [
-        .macOS(.v10_13), .iOS(.v13), .macCatalyst(.v13), .driverKit(.v19), .tvOS(.v13)
+        .macOS(.v11), .iOS(.v13), .macCatalyst(.v13), .driverKit(.v19), .tvOS(.v13)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
