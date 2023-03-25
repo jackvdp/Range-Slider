@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RangeSlider: View {
+public struct RangeSlider: View {
     /// The RangeSlider is a custom view in SwiftUI that allows the user to select a range of values by dragging two sliders. The slider ranges from 0.0 to 1.0 and increments according to the step parameter
     /// - Parameters:
     ///   - lowerValue: A binding to the lower value of the range slider. This value will be updated as the user drags the left slider.
@@ -49,7 +49,7 @@ struct RangeSlider: View {
     var step: Double = 0.01
     private let debouncer = Debouncer(0.005)
     
-    var body: some View {
+    public var body: some View {
         GeometryReader { geo in
             ZStack {
                 HStack(spacing: 0) {
