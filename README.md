@@ -1,8 +1,8 @@
 # RangeSlider
 
-This repository contains the source code for the RangeSlider project.
-
 ## Project Description
+
+![Demo Image](DemoImage)
 
 RangeSlider is a custom view in SwiftUI that allows the user to select a range of values by dragging two sliders. The project was built using Swift and SwiftUI.
 
